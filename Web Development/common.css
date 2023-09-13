@@ -1,0 +1,15 @@
+.container{
+    color: blue;
+    font-size: 24px;
+    font-style: oblique; /* Oblique may not be supported */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 48px;
+
+    background-color: orange;
+    background-image: url(https://unsplash.it/1080/1080);
+    background-image: cover;
+    background-repeat: no-repeat;   
+    background-position: center center;
+}
