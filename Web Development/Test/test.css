@@ -1,0 +1,21 @@
+@keyframes myAnimation {
+    0%, 20% {
+      background-color: red;
+    }
+    20%, 60% {
+      background-color: yellow;
+    }
+    60% {
+      background-color: blue;
+    }
+  }
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation-name: myAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

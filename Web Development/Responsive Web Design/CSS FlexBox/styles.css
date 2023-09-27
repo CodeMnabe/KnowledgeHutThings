@@ -1,0 +1,23 @@
+.container {
+    background-color: #e2e2e2;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    height: 200px;
+
+    flex-flow: row wrap;
+
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.item {
+    background-color: tomato;
+    /* width: 50px; */
+    /* height: 50px; */
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
